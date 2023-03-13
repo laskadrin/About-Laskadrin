@@ -10,6 +10,7 @@ import { CompletedGamesComponent } from './completed-games/completed-games.compo
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatAccordion, MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
+import { ValuesPipe } from './hardware/values.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MatIconModule } from '@angular/material/icon';
     HardwareComponent,
     DonateComponent,
     AboutMeComponent,
-    CompletedGamesComponent
+    CompletedGamesComponent,
+    ValuesPipe
   ],
   imports: [
     BrowserModule,
